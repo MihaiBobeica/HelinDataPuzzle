@@ -45,6 +45,6 @@ I've runned the programm 10 times on my machine and the result are attached belo
 
 <img width="608" alt="image" src="https://github.com/MihaiBobeica/HelinDataPuzzle/assets/77356043/32c016ed-68e6-4afc-81f6-900ff3eaf83c">
 
-##Remarks
+## Remarks
 
 

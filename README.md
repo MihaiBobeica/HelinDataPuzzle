@@ -28,4 +28,4 @@ This vertical encoding of data allows us to do bit manipulations in order to app
 2. word1 has 5 different letters if and only if its translation has 5 bits. To do this, we remove the least significant using [bit operations](https://stackoverflow.com/questions/47779830/what-does-bitwise-operation-nn-1-do).
 3. word1 and word2 have different letters if and only if ($trans1$ AND $trans2) == 0$. This operations results in $true$ if there is no bit set to $1$ in both number, otherwise in $false$.
 
-There are many more applications of bitwise operation in the sbumission algorithm, but somehow similar to the ones mentioned above.
+There are many more applications of bitwise operation in the sbumission algorithm, but somehow similar to the ones mentioned above. Another optimization is the order of the operand in logical expression. We prioritize conditions which are less probable to hold by placing them first in the logical expression. More information can be found on the Wikipedia page of [Lazy evaluation](https://en.wikipedia.org/wiki/Lazy_evaluation#Applications)

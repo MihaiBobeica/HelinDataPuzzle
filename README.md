@@ -18,7 +18,7 @@ Since every word must have a vowel and "vibex" already used two, we know that in
 
 Thus, we need to check only a total of 194 376, which is still a lot, but manageable. It is definetly better than $2197 * 10^9$.
 
-To further optimize the code, we need to implement the 3 criteria efficiently. I do this by associating every word a positive integer in a process called translation. The $n$-th bit is $1$ if the $(n + 1)$-th letter of the alphabet is in the word, otherwise it is $0$. Below you can find the example for the word "fjord".
+To further optimize the code, we need to implement the 3 criteria efficiently. I do this by associating every word a positive integer in a process called translation. The $n$-th bit is $1$ if the $(n + 1)$-th letter of the alphabet is in the word, otherwise it is $0$. Below you can find the example for the word "fjord", which has the translation $148008$.
 
 
 <img width="220" alt="image" src="https://github.com/MihaiBobeica/HelinDataPuzzle/assets/77356043/e81594c1-3b19-4e50-8532-e601faf13947">

@@ -37,14 +37,14 @@ There are many more applications of bitwise operation in the sbumission algorith
 
 I've runned the programm 10 times on my machine and the result are attached below. I have used the built in high_resolution_clock to keep track of how much time I spent on each major task of the problem. On average, the algorithm spends:
 
-### results
 0,5773ms on reading from the file and generating the arrays: a, u, and y	
-0,6844ms on finding all the pairs
-1,33932ms in total
 
+0,6844ms on finding all the pairs
+
+1,33932ms in total
 
 <img width="608" alt="image" src="https://github.com/MihaiBobeica/HelinDataPuzzle/assets/77356043/32c016ed-68e6-4afc-81f6-900ff3eaf83c">
 
-
+##Remarks
 
 

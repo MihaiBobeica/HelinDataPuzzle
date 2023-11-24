@@ -9,11 +9,11 @@ There are about 13 000 words in the list. Trying to form all possible combinatio
 Altough there are words which do not have a vowel in the list, such as the one listed below, there is no need to consider them. After we find a pair, we need to calculate a cost based on the letters in the word. This cost is not defined for words which do not have vowels.
 
 
-$$<img width="592" alt="image" src="https://github.com/MihaiBobeica/HelinDataPuzzle/assets/77356043/16123bd6-4301-4e4f-9238-b2ef8ad319a8">$$
+<img width="592" alt="image" src="https://github.com/MihaiBobeica/HelinDataPuzzle/assets/77356043/16123bd6-4301-4e4f-9238-b2ef8ad319a8">
 
 Since every word must have a vowel and "vibex" already used two, we know that in the final pair there must be a word which only has the vowel 'a", one which only has the vowel 'u', and one which only has the vowel 'y'. I've created 3 arrays to store all the elements by their vowel type name a, u, and y. The number of entries in these arrays are as follows:
 1. There are 178 words with contains the letter 'a'
 2. There are 84 words with contains the letter 'u'
 3. There are 13 words with contains the letter 'y' 
 
-Thus, we need to check only a total of 194 376, which is still a lot, but manageable.
+Thus, we need to check only a total of 194 376, which is still a lot, but manageable. It is definetly better than $2197 * 10^9$

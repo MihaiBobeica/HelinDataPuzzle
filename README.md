@@ -25,5 +25,5 @@ To further optimize the code, we need to implement the 3 criteria efficiently. I
 
 This vertical encoding of data allows us to do bit manipulations in order to apply the criteria. If we consider two words named word1 and word2 whose translations are trans1 and trans2, then we can use bit operations to perform the following task:
 1. The translation of word1 can be done by OR-ing the translations of each letters.
-2. Checking for a word to have 5 different letters can be done by checking if its translation has 5 bits. To do this, we remove the least significant using [https://stackoverflow.com/questions/47779830/what-does-bitwise-operation-nn-1-do](bit operations).
+2. Checking for a word to have 5 different letters can be done by checking if its translation has 5 bits. To do this, we remove the least significant using [bit operations](https://stackoverflow.com/questions/47779830/what-does-bitwise-operation-nn-1-do).
 

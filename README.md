@@ -19,7 +19,7 @@ Since every word must have a vowel and "vibex" already has two, we know that in 
 
 Thus, we need to check only a total of 194 376, which is still a lot, but manageable. It is definetly better than $2197 * 10^9$.
 
-##Introducing bitwise operations
+## Introducing bitwise operations
 
 To further optimize the code, we need to implement the 3 criteria efficiently. I do this by associating every word a positive integer in a process called translation. The $n$-th bit is $1$ if the $(n + 1)$-th letter of the alphabet is in the word, otherwise it is $0$. Below you can find the example for the word "fjord", which has the translation $148008$.
 

@@ -23,8 +23,8 @@ To further optimize the code, we need to implement the 3 criteria efficiently. I
 
 <img width="220" alt="image" src="https://github.com/MihaiBobeica/HelinDataPuzzle/assets/77356043/e81594c1-3b19-4e50-8532-e601faf13947">
 
-This vertical encoding of data allows us to do bit manipulations in order to apply the criteria. If we consider two words named word1 and word2 whose translations are $trans1$ and $trans2$, then we can use bit operations to perform the following task:
+This vertical encoding of data allows us to do bit manipulations in order to apply the criteria. If we consider two words named word1 and word2 whose translations are $trans1$ and $trans2$, we can use bit operations to perform the following task:
 1. The translation of word1 can be done by OR-ing the translations of each letters.
 2. word1 has 5 different letters if and only if its translation has 5 bits. To do this, we remove the least significant using [bit operations](https://stackoverflow.com/questions/47779830/what-does-bitwise-operation-nn-1-do).
-3. Checking for two word to have different letters can be done using NOT ($trans1$ AND $trans2) == 0$. This operations results in $true$ if there is no bit set to $1$ in both number, otherwise in $false$.
-4. Checking for the presence of only a vowel can be done by 
+3. word1 and word2 have different letters if and only if ($trans1$ AND $trans2) == 0$. This operations results in $true$ if there is no bit set to $1$ in both number, otherwise in $false$.
+4. etc.

@@ -36,6 +36,8 @@ There are many more applications of bitwise operation in the sbumission algorith
 ## Perfomance statistics
 
 I've runned the programm 10 times on my machine and here are the results it gets:
+
+
 <img width="604" alt="image" src="https://github.com/MihaiBobeica/HelinDataPuzzle/assets/77356043/c8913438-5743-47f5-9fb0-5cd663d0ad46">
 
 

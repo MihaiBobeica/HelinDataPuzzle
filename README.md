@@ -6,7 +6,7 @@ There are about 13 000 words in the list. Trying to form all possible combinatio
 2. The word has 5 unique letters
 3. The word has only a vowel
    
-Altough there are words which do not have a vowel in the list
+Altough there are words which do not have a vowel in the list, such as the one listed below, there is no need to consider them. After we find a pair, we need to calculate a cost based on the letters in the word. This cost is not defined for words which do not have vowels.
 <img width="592" alt="image" src="https://github.com/MihaiBobeica/HelinDataPuzzle/assets/77356043/16123bd6-4301-4e4f-9238-b2ef8ad319a8">
 
 

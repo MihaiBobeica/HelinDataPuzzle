@@ -16,4 +16,4 @@ Since every word must have a vowel and "vibex" already used two, we know that in
 2. There are 84 words with contains the letter 'u'
 3. There are 13 words with contains the letter 'y' 
 
-Thus, we need to check only a total of 194 376, which is still a lot, but manageable. It is definetly better than $2197 * 10^9$
+Thus, we need to check only a total of 194 376, which is still a lot, but manageable. It is definetly better than $2197 * 10^9$.

@@ -6,5 +6,6 @@ There are about 13 000 words in the list. Trying to form all possible combinatio
 2. The word has 5 unique letters
 3. The word has only a vowel
 Altough there are words which do not have a vowel in the list
-![image](https://github.com/MihaiBobeica/HelinDataPuzzle/assets/77356043/9ccab5b3-6cad-4b6d-8b31-4d9f093e4a9a)
+<img width="592" alt="image" src="https://github.com/MihaiBobeica/HelinDataPuzzle/assets/77356043/16123bd6-4301-4e4f-9238-b2ef8ad319a8">
+
 

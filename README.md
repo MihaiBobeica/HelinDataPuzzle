@@ -27,4 +27,5 @@ This vertical encoding of data allows us to do bit manipulations in order to app
 1. The translation of word1 can be done by OR-ing the translations of each letters.
 2. word1 has 5 different letters if and only if its translation has 5 bits. To do this, we remove the least significant using [bit operations](https://stackoverflow.com/questions/47779830/what-does-bitwise-operation-nn-1-do).
 3. word1 and word2 have different letters if and only if ($trans1$ AND $trans2) == 0$. This operations results in $true$ if there is no bit set to $1$ in both number, otherwise in $false$.
-4. etc.
+
+There are many more applications of bitwise operation in the sbumission algorithm, but somehow similar to the ones mentioned above.

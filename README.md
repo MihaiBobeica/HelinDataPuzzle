@@ -1,7 +1,7 @@
 # HelinDataPuzzle
 The algorithm below is a submission to the Helin's puzzle. The main challenge is to find all pairs of 5 words with 25 unique letters from a list of words, where 2 of them are "fjord" and "vibex", as efficient as possbile.
 
-There are about 13 000 words in the list. Trying to form all possible combinations would be a waste of time, thus, we need reduce the number of elligeble elements. I have implemented the following criterias for a word to be considered in the pair making process:
+There are about 13 000 words in the list. Trying to form all possible combinations would be a waste of time, thus, we need reduce the number of elligeble elements. I have implemented the following criteria for a word to be considered in the pair making process:
 1. The word does not contain the letters "fjordvibex"
 2. The word has 5 unique letters
 3. The word has only a vowel
@@ -17,3 +17,5 @@ Since every word must have a vowel and "vibex" already used two, we know that in
 3. There are 13 words with contains the letter 'y' 
 
 Thus, we need to check only a total of 194 376, which is still a lot, but manageable. It is definetly better than $2197 * 10^9$.
+
+To further optimize the code, we need to implement the 3 criteria efficiently. I do this by associating every word a positive integer in a process called translation. Below you can find the example for the word "fjord":

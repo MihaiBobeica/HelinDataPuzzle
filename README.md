@@ -33,3 +33,4 @@ This vertical encoding of data allows us to do bit manipulations in order to app
 
 There are many more applications of bitwise operation in the sbumission algorithm, but somehow similar to the ones mentioned above. Another optimization is the order of the operand in logical expression. We prioritize conditions which are less probable to hold by placing them first in the logical expression. More information can be found on the Wikipedia page of [Lazy evaluation](https://en.wikipedia.org/wiki/Lazy_evaluation#Applications).
 
+## Perfomance statistics

@@ -5,6 +5,7 @@ There are about 13 000 words in the list. Trying to form all possible combinatio
 1. The word does not contain the letters "fjordvibex"
 2. The word has 5 unique letters
 3. The word has only a vowel
+   
 Altough there are words which do not have a vowel in the list
 <img width="592" alt="image" src="https://github.com/MihaiBobeica/HelinDataPuzzle/assets/77356043/16123bd6-4301-4e4f-9238-b2ef8ad319a8">
 

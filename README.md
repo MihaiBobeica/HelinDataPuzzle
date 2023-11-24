@@ -11,6 +11,4 @@ Altough there are words which do not have a vowel in the list, such as the one l
 
 <img width="592" alt="image" src="https://github.com/MihaiBobeica/HelinDataPuzzle/assets/77356043/16123bd6-4301-4e4f-9238-b2ef8ad319a8">
 
-
-
-
+Since every word must have a vowel and "vibex" already used two, we know that in the final pair there must be a word which only has the vowel 'a", one which only has the vowel 'u', and one which only has the vowel 'y';

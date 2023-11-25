@@ -49,7 +49,7 @@ I've run the programm 10 times on my machine and the result are attached below. 
 ### Displaying time
 Displaying how much time the alghorithm spends on each stage takes around takes around 0.08ms. This calculations is derived using the following formula:
 $$t_{\text{time display}} = \frac{t_{\text{total}} - t_{\text{reading}} - t_{\text{pair making}}}{\text{no of time displays}}$$
-As a result, if the algorithm where to run without keeping track of the time it takes to run, we would decrease the time by 0.18ms, on average, on each run.
+As a result, if the algorithm where to run without keeping track of the time it takes to run, we would decrease the time by 0.24ms, on average, on each run.
 
 ### File input
 In the file provided by Helin (which is also the one included in this repository) on line 2314 there are two five letters words on the same line not separated by anything. However, I will assume that there is no need to check that a word has exactly 5 letters, because this event only occurs once in the file (also because it would increase the run time). 

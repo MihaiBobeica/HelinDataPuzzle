@@ -48,5 +48,5 @@ I've run the programm 10 times on my machine and the result are attached below. 
 ## Remarks
 ### Displaying time
 Displaying how much time the alghorithm spends on each stage takes around takes around 0.08ms. This calculations is derived using the following formula:
-$$t_{\text{time display} = \frac{t_{\text{total}} - t_{\text{reading}} - t_{\text{pair making}}}{\text{no of time displays}}$$
+$$t_{\text{time display}} = \frac{t_{\text{total}} - t_{\text{reading}} - t_{\text{pair making}}}{\text{no of time displays}}$$
 

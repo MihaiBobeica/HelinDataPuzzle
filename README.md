@@ -48,6 +48,6 @@ I've run the programm 10 times on my machine and the result are attached below. 
 ## Remarks
 ### Displaying time
 Displaying how much time the alghorithm spends on each stage takes around takes around 0.08ms. This calculations is derived using the following formula:
-$$t = \frac{t_{total}}{3}$$
+$$t = \frac{t_{total} - t_{reading} - t_{pair making}}{3}$$
 $$ t = \frac{t_{total} -t_{reading} - t_{pair making}{1} $$
 

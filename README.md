@@ -46,5 +46,7 @@ I've run the programm 10 times on my machine and the result are attached below. 
 <img width="608" alt="image" src="https://github.com/MihaiBobeica/HelinDataPuzzle/assets/77356043/32c016ed-68e6-4afc-81f6-900ff3eaf83c">
 
 ## Remarks
-
+### Displaying time
+Displaying how much time the alghorithm spends on each stage takes around takes around 0.08ms. This calculations is derived using the following formula:
+$$t = \frac{t_{total} -t_{reading} - t_{pair making}{1}$$
 

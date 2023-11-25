@@ -49,5 +49,5 @@ I've run the programm 10 times on my machine and the result are attached below. 
 ### Displaying time
 Displaying how much time the alghorithm spends on each stage takes around takes around 0.08ms. This calculations is derived using the following formula:
 $$t_{\text{time display}} = \frac{t_{\text{total}} - t_{\text{reading}} - t_{\text{pair making}}}{\text{no of time displays}}$$
-AS a result, if the algorithm where to run without keeping track of the time, we would decrease the time by 0.18ms on each run.
+As a result, if the algorithm where to run without keeping track of the time it takes to run, we would decrease the time by 0.18ms, on average, on each run.
 
